@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--Adding text styles and hover states. Please do not touch-->
+  <style>
+    h1,
+    h3 {
+      text-align: center;
+    }
+
+    .col-lg-2 {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .col-lg-2 a::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 0, 0, 0);
+      /* Adjust the color and opacity as needed */
+      z-index: 1;
+    }
+
+    .col-lg-2:hover a::before {
+      background-color: rgba(255, 255, 255, 0.2);
+      /* Adjust the color and opacity as needed */
+    }
+    .wolverine-tech {
+            font-family: Oswald;
+            text-transform: uppercase;
+            font-size: 3.33rem;
+            text-align: center;
+        }
+  </style>
+  <title>Tech</title>
+</head>
+
+<body>
+
+  <!--Wolverine tech title-->
+  <div class="section">
+    <a href="#"> <!--To make title clickable-->
+      <h2 class="wolverine-tech" style="color: #275d38; margin-top: 3rem;"><b>Wolverine Tech</b></h2>
+    </a>
+    <br><br>
+
+    <!--Item 1-->
+    <div class="row HoverEffect rowimages rowMargin">
+      <div class="col-lg-2 col-lg-offset-1">
+        <a href=" merchdetail?merchid=">
+          <!--img link and name-->
+          <img alt="Macbook Air M2 8_8 8 256 Midnight"
+            src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/MLY33LLA Macbook Air M2 8_8 8 256 Midnight_02.png">
+        </a>
+        <!--NAME-->
+        <h3>MACBOOKs</h3>
+        <!--Page Link-->
+        <a href="https://store.uvu.edu/tech/apple/apple-computers" aria-label="Macbooks"></a>
+      </div>
+
+      <!--Item 2-->
+      <div class="col-lg-2">
+        <a href=" merchdetail?merchid=">
+          <img alt="JBL Clip 4 Wireless Speaker Black"
+            src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/JBL Clip 4 Wireless Speaker Black_01">
+        </a>
+        <h3>jbl clip 4 speaker</h3>
+        <a href="https://store.uvu.edu/product/17803" aria-label="JBL Clip 4 Speaker"></a>
+      </div>
+
+      <!--Item 3-->
+      <div class="col-lg-2">
+        <a href=" merchdetail?merchid=">
+          <img alt="Apple Pencil 2nd generation"
+            src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/MU8F2AMA Apple Pencil 2nd generation_01">
+        </a>
+        <h3>Apple pencil 2nd gen</h3>
+        <a href="https://store.uvu.edu/MU8F2AMA-Apple-Pencil-2nd-generation?quantity=1&page=1"
+          aria-label="Apple pencil"></a>
+      </div>
+
+      <!--Item 4-->
+      <div class="col-lg-2">
+        <a href=" merchdetail?merchid=">
+          <img alt="Skullcandy Crusher Evo Wireless Black"
+            src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/Skullcandy Crusher Evo Wireless Black_01">
+        </a>
+        <h3>Skullcandy wireless headphones</h3>
+        <a href="https://store.uvu.edu/Skullcandy-Crusher-Evo-Wireless-Black"
+          aria-label="Skullcandy wireless headphones"></a>
+      </div>
+
+      <!--Item 5-->
+      <div class="col-lg-2">
+        <a href=" merchdetail?merchid=">
+          <img alt="iPad Air M2 13 Wifi"
+            src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/iPad Air M2 13 Wifi_01.jpg">
+        </a>
+        <h3>iPads</h3>
+        <a href="https://store.uvu.edu/tech/apple/ipad" aria-label="iPads"></a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
