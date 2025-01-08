@@ -1,0 +1,61 @@
+<head>
+  <style>
+    
+
+/* Parent container */
+.not-slider {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns by default */
+    gap: 20px; /* Space between images */
+    justify-items: center; /* Center images within their grid cells */
+}
+
+/* Images */
+.not-slider img {
+    width: 100%; /* Images take the full width of their grid cell */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures proper scaling */
+    padding: 5px; /* Optional: Add padding around images */
+}
+
+/* Medium screens (e.g., tablets) */
+@media (max-width: 1024px) {
+    .not-slider {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+}
+
+/* Small screens (e.g., mobile) */
+@media (max-width: 768px) {
+    .not-slider {
+        grid-template-columns: 1fr; /* Single column for small screens */
+    }
+}
+
+  
+  .looking-for-textbooks {
+        font-family: Oswald;
+        text-transform: uppercase;
+        font-size: 3.33rem;
+        text-align: center;
+  }
+
+    
+    
+  </style>
+</head>
+  
+ <body>
+  <h2 class="looking-for-textbooks" style="color:#275d38;"><strong>Looking For Textbooks?</strong></h2>
+  <br>
+<div class="not-slider">
+  <a href="/booklist">
+<img alt="Wolverine tech counter" src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_AssetImages/UVUStoreBooklistButton.png"></img></a>
+
+<a href="/wolverine-access-student-faq">
+<img alt="Wolverine access" src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_AssetImages/WolverineAccessButton.png"></img>
+</a>
+</div>
+
+
+</body>
