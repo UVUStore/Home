@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    h1,
+    h3 {
+      text-align: center;
+    }
+
+
+    .col-lg-2 {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .col-lg-2 a::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 0, 0, 0);
+      /* Adjust the color and opacity as needed */
+
+      z-index: 1;
+    }
+
+    .col-lg-2:hover a::before {
+      background-color: rgba(255, 255, 255, 0.2);
+      /* Adjust the color and opacity as needed */
+    }
+
+    /* Mobile-specific styles */
+    @media (max-width: 767px) {
+      .col-lg-2 {
+        max-width: 50% height: auto;
+        /* Ensures the image height scales proportionally */
+
+      }
+    }
+    
+    .new-in-store {
+            font-family: Oswald;
+            text-transform: uppercase;
+            font-size: 3.33rem;
+            text-align: center;
+        }
+    
+  </style>
+  <title> What Students Love</title>
+</head>
+
+<body>
+
+
+  <h2 class="new-in-store" style="color: #275d38; margin-top: 3rem;"><strong>New in store</strong></h2>
+
+  <br><br>
+
+  <div class="row HoverEffect rowimages rowMargin">
+    <div class="col-lg-2 col-lg-offset-1">
+      <a href="https://store.uvu.edu/Artisans-Black-White-Varsity-Jacket">
+
+
+        <img alt="Artisans BlackWhite Varsity Jacket"
+          src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/Artisans BlackWhite Varsity Jacket_01.png?resizeid=5&resizeh=1200&resizew=1200">
+      </a>
+      <h3>Varsity Jacket</h3>
+      <a href="https://store.uvu.edu/Artisans-Black-White-Varsity-Jacket" aria-label="Varsity Jacket"></a>
+    </div>
+
+    <div class="col-lg-2">
+      <a href=" merchdetail?merchid=">
+        <img alt="Pen Stand"
+          src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/Itoya Stand Pen Case Red Fox_01.png?resizeid=5&resizeh=1200&resizew=1200">
+      </a>
+      <h3>Itoya Stand Pen Case Red Fox</h3>
+      <a href="https://store.uvu.edu/Itoya-Stand-Pen-Case-Red-Fox" aria-label="Itoya Stand Pen Case Red Fox"></a>
+    </div>
+
+    <div class="col-lg-2">
+      <a href=" merchdetail?merchid=">
+        <img alt="MV Sport Wisteria Fleece Beachcomber Tote Bag"
+          src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/MV Sport Wisteria Fleece Beachcomber Tote Bag_01.jpg?resizeid=5&resizeh=1200&resizew=1200">
+      </a>
+      <h3>Fleece Tote Bag</h3>
+      <a href="https://store.uvu.edu/MV-Sport-Wisteria-Fleece-Tote-Bag" aria-label="Fleece Bag"></a>
+
+    </div>
+    <div class="col-lg-2">
+      <a href=" merchdetail?merchid=">
+        <img alt="MV Bronze Green WP Vintage Hooded Rain Jacket"
+          src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/MV Bronze Green WP Vintage Hooded Rain Jacket_01.jpg?resizeid=5&resizeh=1200&resizew=1200">
+      </a>
+      <h3>Rain Jacket</h3>
+      <a href="https://store.uvu.edu/Vintage-Color-Block-Rain-Jacket_2" aria-label="Rain Jacket"></a>
+    </div>
+
+    <div class="col-lg-2">
+      <a href=" merchdetail?merchid=">
+        <img alt="FC Artist Desktop Vacuum"
+          src="https://store.uvu.edu/SSP Applications/NetSuite Inc. - SCS/SuiteCommerce Standard/UVU_ItemImages/FC Artist Desktop Vacuum_01.png?resizeid=5&resizeh=1200&resizew=1200">
+      </a>
+      <h3>Artist Desktop Vacuum</h3>
+      <a href="https://store.uvu.edu/Artist-Desktop-Vacuum" aria-label="Desktop Vacuum"></a>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
