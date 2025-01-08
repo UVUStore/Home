@@ -1,0 +1,8 @@
+<div><h2 class="official-wolverine" style="color: #275d38; margin-bottom: 0px"><strong>Official Wolverine</strong></h2><style>
+  .official-wolverine{
+        font-family: Oswald;
+        text-transform: uppercase;
+        font-size: 3.33rem;
+        text-align: center;
+  }
+</style></div>
